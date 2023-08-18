@@ -1,7 +1,7 @@
-from gameui.colors import F_YELLOW, RESET, F_RED
-from utility.movevalidator import MoveValidator, MoveException
+from presentation.colors import F_YELLOW, RESET, F_RED
+from utility.move_validator import MoveValidator, MoveException
 from player.human import Human
-from utility.gameutility import GameCalculations
+from utility.game_utility import GameCalculations
 
 
 class GameUI:

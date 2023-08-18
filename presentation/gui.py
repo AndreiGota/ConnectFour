@@ -2,7 +2,7 @@ import tkinter
 from tkinter import messagebox
 
 from player.computer import Computer
-from utility.gameutility import GameCalculations
+from utility.game_utility import GameCalculations
 
 
 class GameGUI:
