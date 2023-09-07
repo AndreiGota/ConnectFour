@@ -28,4 +28,4 @@ second_player_ai = "Smart"
 The ```ui_type``` can be either ```GUI``` or ```Console```, the types of each player can be ```Human``` or ```Computer``` and the AI type can be either ```Smart```, which employs a minimax strategy, or ```Random```, which chooses moves randomly.
 
 ## Video sample (Human vs AI)
-![](https://github.com/ConnectFour/video.gif)
+ <p align="center"> <img src="https://github.com/AndreiGota/ConnectFour/blob/main/video.gif" width="100" height="100"/> </p>
