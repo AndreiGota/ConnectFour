@@ -2,7 +2,7 @@
  Connect 4 game built in python.
 
 ## How to play:
-The two players take turns dropping colored tokens into a seven-column, six-row vertically suspended grid (the size of the grid can be changed). The pieces fall straight down, occupying the lowest available space within the selected column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens.
+The two players take turns dropping colored tokens into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the selected column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens.
 
 ## Features:
 - Console User Interface
