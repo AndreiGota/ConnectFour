@@ -27,5 +27,8 @@ second_player_ai = "Smart"
 ```
 The ```ui_type``` can be either ```GUI``` or ```Console```, the types of each player can be ```Human``` or ```Computer``` and the AI type can be either ```Smart```, which employs a minimax strategy, or ```Random```, which chooses moves randomly.
 
+## AI Implementation
+The AI analyses every possible move from the current board state by using a minimax algorithm, trying to maximize the score of its moves and minimizing the score of the opponent's moves. In the case of this game, the score depends on the placement of the pieces and the possibilities of placing 4 pieces of one color in a row. The AI only simulates 3 moves in advance, since any more moves would seriously hurt the time performance. This way, it decides which move is the most profitable, and uses it once the computations are done. 
+
 ## Video sample (Human vs AI)
  <p align="center"> <img src="https://github.com/AndreiGota/ConnectFour/blob/main/video.gif" height="500"/> </p>
